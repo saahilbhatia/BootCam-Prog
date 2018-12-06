@@ -1,0 +1,25 @@
+# User input of list of numbers
+l = []
+while True:
+    # assuming user enters only numbers
+    temp = input("Please input a positive integer for the list: ")
+    if temp:
+        l.append(int(temp))
+    else:
+        break
+
+# User input for number to be compared
+num = int(input("Enter the number to be compared:  ")) #assuming user enters input correctly
+
+# Checking whether two elements add up to "num" and storing the pairs
+output = []
+# Remove duplicates in list
+l = list(set(l))
+# Start from first element, check first element + other element = num,
+# and then delete first element from the list. Repeat until lenth of list is 1
+while len(l) > 2:
+    first = l.pop(0) # remove first element
+    for i in range(len(l)):
+        if first + l[i] == num and first != l[i]:
+            output.append((first,l[i]))
+print(output)
