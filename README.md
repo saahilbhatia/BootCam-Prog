@@ -1,4 +1,4 @@
-# BootCam-Prog
+# BootCamp-Prog
 Read an integer and a list of positive integers (>0) from the user. 
 You can decide on the list to be in any format.
 Find all pairs of numbers in the list that their sum is equal to the first number. 
