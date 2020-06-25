@@ -1,4 +1,4 @@
-# BootCamp-Prog
+# PythonBootCamp-2019-Monash
 ## Question
 Read an integer and a list of positive integers (>0) from the user. 
 You can decide on the list to be in any format.
